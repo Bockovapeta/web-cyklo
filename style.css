@@ -23,9 +23,9 @@ h1 {
     font-size: 50px;
     font-family: 'Merriweather', sans-serif;
 
-    color: rgb(255, 214, 197);
+    color: rgb(0, 0, 0);
     font-weight: bolder;
-    text-shadow: 2px 2px 5px #000000;
+    text-shadow: 5px 5px 8px #7d39d7;
 
 }
 
@@ -201,7 +201,7 @@ img {
 .box input[type="email"],
 .box textarea {
 
-    background: rgb(210, 255, 151);
+    background: rgb(255, 255, 169);
     display: block;
     text-align: center;
     border: 2px solid #214252;
@@ -226,7 +226,7 @@ textarea:focus {
 
     transition: 0.25s;
     border: 2px solid;
-    background-color: rgb(255, 215, 104);
+    background-color: rgb(247, 255, 23);
 
 }
 
@@ -235,7 +235,7 @@ textarea:focus {
     display: block;
     margin: 1rem 0 2rem 0;
     text-align: center;
-    background-color: rgb(248, 237, 84);
+    background-color: rgb(247, 255, 23);
     border: 2px solid #214252;
     padding: 10px 20px;
     outline: none;
@@ -312,6 +312,13 @@ textarea:focus {
 
     body {
         background-color: #fcff51;
+    }
+
+    .hlavicka {
+
+        background: linear-gradient(#ecfb17, #ffffe4);
+
+
     }
 
     .menu {
@@ -424,15 +431,19 @@ textarea:focus {
         margin: -3rem auto;
         background: white;
         border-radius: 1%;
+        border: 2px black;
     }
 
     .hlavicka {
-        background-color: #fcff51;
-        border-bottom: 1px solid black;
+
+        background: linear-gradient(#ecfb17, #ffffe4);
+
+
     }
 
     body {
-        background-color: #fbfb88;
+        background-color: #ffffe4;
+
     }
 
     .autor {
