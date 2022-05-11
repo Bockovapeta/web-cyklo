@@ -20,12 +20,12 @@ body p {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Merriweather', sans-serif;
 
-    color: #0a0301;
+    color: rgb(255, 214, 197);
     font-weight: bolder;
-    text-shadow: 5px 5px 10px #999bc3;
+    text-shadow: 2px 2px 5px #000000;
 
 }
 

@@ -190,10 +190,10 @@
                 <h2 class="linka">Kontaktní formulář</h2>
 
 
-                <!--
-            <form action="posli.php" method="post" class="box">
 
-                <?php
+                <form action="posli.php" method="post" class="box">
+
+                    <?php
        
                 if($_GET['success'] == 1){
                     echo "<div class=\"form-result success\">Odeslání proběhlo v pořádku</div>";
@@ -205,30 +205,30 @@
                ?>
 
 
-                <table class="formular">
-                    <tr>
-                        <td>Váš e-mail:</td>
-                        <td><input type="email" name="email" size="25" placeholder="Email"> </td>
-                    </tr>
-                    <tr>
-                        <td>Vaše jméno </td>
-                        <td><input type="text" name="name" size="25" placeholder="Jméno a příjmení"> </td>
-                    </tr>
-                    <tr>
+                    <table class="formular">
+                        <tr>
+                            <td>Váš e-mail:</td>
+                            <td><input type="email" name="email" size="25" placeholder="Email"> </td>
+                        </tr>
+                        <tr>
+                            <td>Vaše jméno </td>
+                            <td><input type="text" name="name" size="25" placeholder="Jméno a příjmení"> </td>
+                        </tr>
+                        <tr>
 
-                        <td>Protispamová kontrola:</td>
-                        <td> <input type="text" name="spam" size="25" placeholder="Kolik je 1+1 ?"> </td>
-                    </tr>
-                    <tr>
-                        <td>Zpráva:</td>
-                        <td><textarea type="text" name="zprava" rows="6" cols="55">&nbsp;</textarea> </td>
-                    </tr>
-                </table>
-                <input type="submit" value="Odeslat">
+                            <td>Protispamová kontrola:</td>
+                            <td> <input type="text" name="spam" size="25" placeholder="Kolik je 1+1 ?"> </td>
+                        </tr>
+                        <tr>
+                            <td>Zpráva:</td>
+                            <td><textarea type="text" name="zprava" rows="6" cols="55">&nbsp;</textarea> </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Odeslat">
 
-            </form>
+                </form>
 
-            -->
+
                 <br>
 
             </div>
