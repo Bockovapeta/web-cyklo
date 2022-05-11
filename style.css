@@ -114,7 +114,7 @@ img {
     padding: 1rem;
     color: rgb(255, 255, 255);
     text-align: center;
-    background: #fbfb88;
+    background: linear-gradient(#ecfb17, #ffffe4);
     background-size: cover;
 
     background-position: center;
