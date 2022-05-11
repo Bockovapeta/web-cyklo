@@ -1,0 +1,585 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #feffd6;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+body p {
+    padding: 0 2rem;
+    color: rgb(83, 83, 64);
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Merriweather', sans-serif;
+
+    color: #0a0301;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px #999bc3;
+
+}
+
+h2 {
+    padding: 0 2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.fotka,
+.fotka a,
+.popisek,
+.popisek a,
+.paticka,
+.paticka a {
+    color: rgb(82, 36, 36);
+    font-size: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.kontakt a {
+    color: rgb(18, 39, 18);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #e1f0e1;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.fotogalerie ul li {
+    list-style-type: none;
+    color: #ffff00;
+}
+
+
+.uvod a,
+.typy a,
+.fotogalerie a {
+    color: #470d0df1;
+    text-shadow: 1px 1px 1px #ffff00;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.uvod a:hover,
+.typy a:hover,
+.fotogalerie a:hover {
+    color: #ffff00;
+    text-shadow: 1px 1px 1px #0f1402;
+}
+
+.fotogalerie img {
+    width: 100%;
+}
+
+
+.linka::after {
+    content: "";
+    background: #ffff00;
+    display: block;
+    height: 5px;
+    width: 90px;
+    position: relative;
+    right: 2rem;
+    margin-top: 1rem;
+}
+
+.autor::before {
+    content: "";
+    background: rgb(47, 25, 25);
+    display: block;
+    height: 1px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+/*hlavička*/
+
+.hlavicka {
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: #fbfb88;
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+.hlavicka p {
+    text-shadow: 5px 5px 10px #9fe6e4;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+
+.autor {
+    color: #0a0301;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px #999bc3;
+    position: relative;
+}
+
+
+.hlavickaobrazek {
+    width: 30%;
+    height: 30%;
+    right: 5px;
+    position: absolute;
+    bottom: 90px;
+}
+
+/*menu*/
+
+.menu {
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 1rem 3rem;
+    margin: 0;
+}
+
+.menu a {
+    color: #fcff51;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.menu a:hover,
+.menu a:focus {
+    color: black;
+    font-weight: bolder;
+
+}
+
+.menu li {
+    border-bottom: 1px solid #470d0df1;
+    padding: 1rem 0;
+}
+
+.mini,
+.mini2 {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.foto {
+    position: relative;
+    line-height: 0;
+}
+
+.nadpis {
+    color: #070101f1;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+/* Kontaktní formulář  */
+.box input[type="text"],
+.box input[type="email"],
+.box textarea {
+
+    background: rgb(210, 255, 151);
+    display: block;
+    text-align: center;
+    border: 2px solid #214252;
+    padding: 5px 3px;
+    width: 95%;
+    color: rgb(44, 26, 26);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #616655;
+}
+
+.box {
+    margin-left: 2rem;
+}
+
+.box td {
+    display: inline;
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+textarea:focus {
+
+    transition: 0.25s;
+    border: 2px solid;
+    background-color: rgb(255, 215, 104);
+
+}
+
+.box input[type="submit"] {
+
+    display: block;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    background-color: rgb(248, 237, 84);
+    border: 2px solid #214252;
+    padding: 10px 20px;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #616655;
+    font-weight: bold;
+}
+
+.box input[type="submit"]:hover {
+    background: rgb(202, 186, 144);
+    border: 2px solid;
+    transition: 0.4 s;
+
+
+}
+
+
+/* Form result */
+.form-result {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.success {
+    background-color: #6af86e;
+}
+
+.error {
+    background-color: #e71a1a;
+}
+
+
+
+/*
+.fotka {
+    width: 100%;
+    height: 100%;
+    bottom: -20px;
+    position:absolute;
+    font-size:large;
+    text-shadow: 1px 1px 3px #e3fae3;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(61, 45, 23);
+}
+*/
+/*patička*/
+
+.paticka {
+    background: linear-gradient(to bottom, rgb(231, 229, 229), white);
+    text-align: left;
+    padding-top: 10px;
+
+}
+
+.paticka p {
+    margin: 0;
+}
+
+
+
+
+/*verze pro tablet*/
+@media (min-width: 500px) and (max-width: 851px) {
+
+    .mini,
+    .mini2 {
+        margin-bottom: 0;
+    }
+
+    body {
+        background-color: #fcff51;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu li {
+        border: none;
+        border-top: 1px solid #050300f1;
+        border-bottom: 1px solid #050300f1;
+    }
+
+    .menu li:nth-child(2),
+    .menu li:nth-child(3),
+    .menu li:nth-child(4),
+    .menu li:nth-child(5) {
+        border-left: 1px solid #050300f1;
+    }
+
+    .menu a {
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    .obrazek {
+        position: relative;
+        width: 100%;
+    }
+
+    .obrazek .popisek {
+        right: 0;
+        position: absolute;
+        bottom: 5px;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        text-shadow: #e1f0e1;
+    }
+
+    .obrazek a,
+    .fotka a {
+        color: white;
+    }
+
+
+    .foto {
+        position: relative;
+        width: 50%;
+        display: flex;
+        max-height: 600px;
+    }
+
+    .kontejner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foto p {
+        position: absolute;
+        color: white;
+        bottom: 0;
+        opacity: 0;
+    }
+
+    .telo {
+        background-color: white;
+
+    }
+
+    .box input[type="text"],
+    .box input[type="email"],
+    .box textarea {
+        display: block;
+        width: 100%;
+    }
+
+    .box td {
+        display: flex;
+    }
+
+
+    /*
+        .fotka {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            padding-top: 40%;
+            margin:0;
+            text-shadow: none;
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: rgb(255, 254, 254);
+        }
+
+        .fotka:hover {
+            transition: 1s;
+            transform: translate(10px 30px);
+            background-color: rgb(75, 59, 59);
+            opacity: 0.7;
+            font-size: 14px;
+        }
+
+     */
+}
+
+/*verze pro PC*/
+@media (min-width:851px) {
+
+    .telo {
+        max-width: 1200px;
+        margin: -3rem auto;
+        background: white;
+        border-radius: 1%;
+    }
+
+    .hlavicka {
+        background-color: #fcff51;
+        border-bottom: 1px solid black;
+    }
+
+    body {
+        background-color: #fbfb88;
+    }
+
+    .autor {
+        margin: 2rem 0;
+    }
+
+    .menu {
+        text-align: left;
+        float: left;
+        height: 400px;
+    }
+
+    .uvod {
+        padding-top: 2rem;
+    }
+
+    .proc p {
+        padding-right: 200px;
+    }
+
+    .videt p,
+    .videt h2 {
+        padding-left: 200px;
+    }
+
+    .kontejner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .foto {
+        position: relative;
+
+        display: flex;
+        width: 50%;
+        max-height: 800px;
+    }
+
+    .foto3 {
+        width: 100%;
+    }
+
+    .foto p {
+        position: absolute;
+        color: white;
+        bottom: 0;
+        opacity: 0;
+    }
+
+    .obrazek {
+        position: relative;
+    }
+
+    .obrazek {
+
+        width: 100%;
+    }
+
+    .obrazek .popisek {
+        right: 0;
+        position: absolute;
+        bottom: 5px;
+        color: rgb(11, 9, 9);
+        font-weight: bolder;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .popisek a,
+    .fotka a {
+        color: rgb(6, 3, 3);
+    }
+
+
+
+
+    /*
+        .fotka {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            padding-top: 40%;
+            margin:0;
+            text-shadow: none;
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: rgb(255, 254, 254);
+        }
+
+        .fotka:hover {
+            transition: 1s;
+            transform: translate(10px 30px);
+            background-color: rgb(75, 59, 59);
+            opacity: 0.7;
+            font-size: 14px;
+        }
+*/
+    .paticka {
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+
+    .mini2 {
+        padding-bottom: 30px;
+    }
+
+    .foto img {
+        border: 1px rgb(105, 99, 64) solid;
+    }
+
+
+
+    .box input[type="text"],
+    .box input[type="email"],
+    .box textarea {
+        display: block;
+        width: 100%;
+    }
+
+    .box td {
+        display: flex;
+    }
+
+    .vlevo {
+        display: block;
+        width: 50%;
+    }
+
+    .kontakt {
+        display: flex;
+    }
+
+    .vpravo {
+        display: block;
+        float: right;
+        margin-top: -100px;
+    }
+
+    .hlavickaobrazek {
+        max-width: 231px;
+        max-height: 177px;
+        right: 5rem;
+        position: absolute;
+        bottom: 90px;
+    }
+
+}
