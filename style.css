@@ -24,7 +24,7 @@ h1 {
     font-size: 50px;
     font-family: 'Merriweather', sans-serif;
 
-    color: rgb(255, 255, 50);
+    color: rgb(253, 253, 95);
     font-weight: bolder;
     text-shadow: 5px 5px 8px #7d39d7;
 
@@ -311,7 +311,7 @@ textarea:focus {
 
 
 /*verze pro tablet*/
-@media (min-width: 500px) and (max-width: 951px) {
+@media (min-width: 500px) and (max-width: 1101px) {
 
     .mini,
     .mini2 {
@@ -414,6 +414,11 @@ textarea:focus {
         display: flex;
     }
 
+    .foto3 {
+        width: 100%;
+    }
+
+
 
     /*
         .fotka {
@@ -439,7 +444,7 @@ textarea:focus {
 }
 
 /*verze pro PC*/
-@media (min-width:952px) {
+@media (min-width:1101px) {
 
     .telo {
         max-width: 1200px;
@@ -497,7 +502,7 @@ textarea:focus {
     }
 
     .proc p {
-        padding-right: 200px;
+        padding-right: 100px;
     }
 
     .videt p,
@@ -521,6 +526,10 @@ textarea:focus {
     }
 
     .foto3 {
+        width: 100%;
+    }
+
+    .foto3 img {
         width: 100%;
     }
 
@@ -621,7 +630,7 @@ textarea:focus {
     .vpravo {
         display: block;
         float: right;
-        margin-top: -100px;
+        margin-top: -83px;
     }
 
     .hlavickaobrazek {
