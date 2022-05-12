@@ -9,21 +9,22 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
-    background-color: #feffd6;
+    background-color: #6e6e6a;
     font-size: 14px;
     line-height: 1.6;
+    text-align: justify;
 }
 
 body p {
     padding: 0 2rem;
-    color: rgb(83, 83, 64);
+    color: rgb(253, 253, 228);
 }
 
 h1 {
     font-size: 50px;
     font-family: 'Merriweather', sans-serif;
 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 50);
     font-weight: bolder;
     text-shadow: 5px 5px 8px #7d39d7;
 
@@ -51,11 +52,11 @@ img {
 }
 
 .kontakt a {
-    color: rgb(18, 39, 18);
+    color: rgb(253, 255, 187);
     text-decoration: none;
-    text-shadow: 1px 1px 1px #e1f0e1;
-    font-size: 20px;
-    font-weight: 600;
+    text-shadow: 1px 1px 1px #98921d;
+    font-size: 16px;
+    font-weight: 500;
     text-decoration: none;
 
 }
@@ -79,7 +80,7 @@ img {
 .typy a:hover,
 .fotogalerie a:hover {
     color: #ffff00;
-    text-shadow: 1px 1px 1px #0f1402;
+    text-shadow: 1px 1px 1px #1f2a02;
 }
 
 .fotogalerie img {
@@ -100,7 +101,7 @@ img {
 
 .autor::before {
     content: "";
-    background: rgb(47, 25, 25);
+    background: rgb(240, 239, 197);
     display: block;
     height: 1px;
     width: 100px;
@@ -112,9 +113,9 @@ img {
 
 .hlavicka {
     padding: 1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 109);
     text-align: center;
-    background: linear-gradient(#ecfb17, #ffffe4);
+    background: linear-gradient(#000000, #6e6e6a);
     background-size: cover;
 
     background-position: center;
@@ -122,7 +123,7 @@ img {
 }
 
 .hlavicka p {
-    text-shadow: 5px 5px 10px #9fe6e4;
+    text-shadow: 2px 2px 8px rgb(84, 141, 139)4;
     font-weight: 100;
     font-size: 20px;
 }
@@ -133,12 +134,12 @@ img {
     color: #0a0301;
     font-weight: bolder;
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 5px 5px 10px #999bc3;
     position: relative;
 }
 
-
+/* obrázek v hlavičce- cyklista*/
 .hlavickaobrazek {
     width: 30%;
     height: 30%;
@@ -151,7 +152,7 @@ img {
 
 .menu {
     text-align: center;
-    text-transform: uppercase;
+
     list-style-type: none;
     padding: 1rem 3rem;
     margin: 0;
@@ -186,6 +187,12 @@ img {
 .foto {
     position: relative;
     line-height: 0;
+
+
+}
+
+.foto img {
+    max-height: 600px;
 }
 
 .nadpis {
@@ -255,7 +262,7 @@ textarea:focus {
 }
 
 
-/* Form result */
+/* Form result z php kontaktního formuláře */
 .form-result {
     width: 80%;
     margin: 0 auto;
@@ -297,26 +304,30 @@ textarea:focus {
 
 .paticka p {
     margin: 0;
+    color: #616655;
 }
 
 
 
 
 /*verze pro tablet*/
-@media (min-width: 500px) and (max-width: 851px) {
+@media (min-width: 500px) and (max-width: 951px) {
 
     .mini,
     .mini2 {
         margin-bottom: 0;
     }
 
-    body {
-        background-color: #fcff51;
+    telo {
+        background-color: #6e6e6a;
+        text-align: justify;
     }
+
+
 
     .hlavicka {
 
-        background: linear-gradient(#ecfb17, #ffffe4);
+        background: linear-gradient(#000000, #6e6e6a);
 
 
     }
@@ -330,6 +341,9 @@ textarea:focus {
         border: none;
         border-top: 1px solid #050300f1;
         border-bottom: 1px solid #050300f1;
+        padding: 10px 2px;
+
+
     }
 
     .menu li:nth-child(2),
@@ -342,7 +356,11 @@ textarea:focus {
     .menu a {
         margin: 0 1rem;
         text-align: center;
+        padding: auto;
+        overflow-wrap: break-word;
     }
+
+
 
     .obrazek {
         position: relative;
@@ -383,10 +401,7 @@ textarea:focus {
         opacity: 0;
     }
 
-    .telo {
-        background-color: white;
 
-    }
 
     .box input[type="text"],
     .box input[type="email"],
@@ -424,7 +439,7 @@ textarea:focus {
 }
 
 /*verze pro PC*/
-@media (min-width:851px) {
+@media (min-width:952px) {
 
     .telo {
         max-width: 1200px;
@@ -432,17 +447,19 @@ textarea:focus {
         background: white;
         border-radius: 1%;
         border: 2px black;
+        text-align: justify;
+
     }
 
     .hlavicka {
 
-        background: linear-gradient(#ecfb17, #ffffe4);
+        background: linear-gradient(#000000, #6e6e6a);
 
 
     }
 
     body {
-        background-color: #ffffe4;
+        background-color: #6e6e6a;
 
     }
 
@@ -456,8 +473,27 @@ textarea:focus {
         height: 400px;
     }
 
+    .menu a {
+        color: rgb(132, 130, 34);
+        text-shadow: 1.3px 1.1px 1.2px #ffec18;
+
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
     .uvod {
         padding-top: 2rem;
+        font-size: 16px;
+        padding-right: 2rem;
+        text-align: justify;
+
+    }
+
+    .uvod p,
+    .proc p,
+    .fotogalerie p,
+    .kontakt p {
+        color: rgb(44, 26, 26);
     }
 
     .proc p {
@@ -497,12 +533,14 @@ textarea:focus {
 
     .obrazek {
         position: relative;
-    }
-
-    .obrazek {
-
         width: 100%;
     }
+
+    .obrazek img {
+        width: 100%;
+    }
+
+
 
     .obrazek .popisek {
         right: 0;
@@ -555,6 +593,7 @@ textarea:focus {
 
     .foto img {
         border: 1px rgb(105, 99, 64) solid;
+        max-height: 750px;
     }
 
 
@@ -591,6 +630,16 @@ textarea:focus {
         right: 5rem;
         position: absolute;
         bottom: 90px;
+    }
+
+    .kontakt a {
+        color: rgb(131, 135, 30);
+        text-decoration: none;
+        text-shadow: 0.5px 0.5px 0.5px #100f02;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+
     }
 
 }
