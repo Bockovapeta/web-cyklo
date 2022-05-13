@@ -89,6 +89,8 @@ img {
 }
 
 
+
+
 .linka::after {
     content: "";
     background: #0008ff;
@@ -116,6 +118,7 @@ img {
     padding: 1rem;
     color: rgb(255, 255, 234);
     text-align: center;
+
     background: linear-gradient(#000000, #6e6e6a);
     background-size: cover;
 
@@ -177,6 +180,7 @@ img {
     font-weight: bolder;
 
 }
+
 
 .menu li {
     border-bottom: 1px solid #470d0df1;
@@ -460,18 +464,23 @@ textarea:focus {
         border: 2px black;
         text-align: justify;
 
+
     }
 
     .hlavicka {
 
         background: linear-gradient(#000000, #6e6e6a);
+        border-bottom: 3px solid white;
 
+    }
 
+    .hlavicka p {
+        margin: 0 3rem;
     }
 
     body {
         background-color: #6e6e6a;
-
+        background-image: url("images/brick-wall-wall-masonry-brickwork-red-brick-wall-pattern-brick-background-brick-backdrop-brick-texture.jpg");
     }
 
     .autor {
