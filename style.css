@@ -201,6 +201,12 @@ img {
 
 }
 
+.foto3 {
+    position: relative;
+    line-height: 0;
+
+}
+
 .foto img {
     max-height: 600px;
 }
@@ -616,10 +622,13 @@ textarea:focus {
     }
 
     .foto img {
-        border: 1px rgb(105, 99, 64) solid;
+        border: 0.5px rgb(255, 255, 255) solid;
         max-height: 750px;
     }
 
+    .foto3 img {
+        border: 1px rgb(255, 255, 255) solid;
+    }
 
 
     .box input[type="text"],
