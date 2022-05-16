@@ -15,9 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <meta name="seznam-wmt" content="V2wmEDZ4ppDr4OBDIjvNVR00THVFaDfY" />
+    <meta name="seznam-wmt" content="gfqoOGcjpClTGRypFXAniNVzNYJGLTS8" />
     <meta name="description" content="CYKLO pro FIT - servis jízdních kol. Postaráme se o to, aby Vaše kolo perfektně jezdilo. Nabízíme Vám sériózní servis nejvyšší kvality. Martin Pospíšilík. Hulín" />
-    <meta name="google-site-verification" content="QbGEXW_S-VzTBgMLMSOsbzl86ZJ9SfC4GW79NZbqsU8" />
+    <meta name="google-site-verification" content="3bC8H7wOQJgDgNxEZ0pV5t7SKkyTc0CRRXXQ5jbZiJA" />
     <meta name="keywords" content="servis kol, cyklo pro fit, cyklistika, jízdní kola, Hulín, Martin Pospíšilík">
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index, follow">
