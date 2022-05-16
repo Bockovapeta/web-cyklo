@@ -33,7 +33,7 @@
         CYKLO pro FIT</h1>
 
     <p> Potřebujete se svým kolem do servisu? Postaráme se o to, aby Vaše kolo bylo v perfektním stavu.</p>
-    <p>Provádíme servis nejvyšší kvality, sériózní jednání je samozřejmostí. Nabízíme pečlivě provedenou práci, se kterou budete nadmíru spokojeni.
+    <p>Provádíme servis nejvyšší kvality, seriózní jednání je samozřejmostí. Nabízíme pečlivě provedenou práci, se kterou budete nadmíru spokojeni.
     </p>
 
     <div class="autor">Martin Pospíšilík
