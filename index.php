@@ -183,7 +183,7 @@
 
                     <br>
                     Navštivte nás na Facebooku <BR>
-                    <a href="" target="_blank"> <img src="images/facebook-2429746__480.webp" width="35px" height="35px" alt="facebook">
+                    <a href="" target="_blank"> <img src="images/facebook_icon.jpg" width="35px" height="35px" alt="facebook">
                     </a>
 
                     <br>
@@ -200,7 +200,7 @@
 
                 <form action="posli.php" method="post" class="box">
 
-                    <!--
+
                     <?php
        
                 if($_GET['success'] == 1){
@@ -212,7 +212,7 @@
                 };
                ?>
 
--->
+
                     <table class="formular">
                         <tr>
                             <td>Váš e-mail:</td>
