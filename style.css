@@ -324,6 +324,20 @@ textarea:focus {
 }
 
 
+.proc-subtitle {
+
+    margin: auto;
+    color: #4040cb;
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.subtitle {
+    background-color: rgb(217, 205, 205);
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /*verze pro tablet*/
